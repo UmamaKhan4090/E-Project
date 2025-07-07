@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy Air Conditioners - Stay Cool in Style</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="maintenance.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+     <link rel="icon" href="images/logo1.jpg" type="image/x-icon">
+</head>
+
+<body>
+     <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+            <div class="container-fluid px-3 px-md-5"> <!-- Changed to container-fluid with responsive padding -->
+                <!-- Animated Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="logo-animation me-2">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <span class="brand-text">Cosy Air Conditioners</span>
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-home d-lg-none me-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fas fa-info-circle d-lg-none me-2"></i>About
+                                Cosy</a>
+                        </li>
+
+                        <!-- Services Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-box-open me-1 d-none d-lg-inline"></i>Services
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="ac-installation.html">Installation</a></li>
+                                <li><a class="dropdown-item" href="ac-maintenance.html">Maintenance</a></li>
+                                <li><a class="dropdown-item" href="ac-repair.html">Repairing</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="duct-cleaning.html">Duct-Cleaning</a></li>
+                                <li><a class="dropdown-item" href="refrigerant-recharge.html">Refrigerant</a></li>
+                                <li><a class="dropdown-item" href="thermostat-installation.html">Thermostat</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Brands Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="brandsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-tags me-1 d-none d-lg-inline"></i>Brands
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="brandsDropdown">
+                                <li><a class="dropdown-item" href="mitsubishi.html">Mitsubishi</a></li>
+                                <li><a class="dropdown-item" href="orient.html">Orient</a></li>
+                                <li><a class="dropdown-item" href="lg.html">LG</a></li>
+                                <li><a class="dropdown-item" href="sanyo.html">Sanyo</a></li>
+                                <li><a class="dropdown-item" href="carrier.html">Carrier</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-contact" href="contact.html">
+                                <i class="fas fa-envelope me-1"></i>
+                                <span class="d-none d-md-inline">Contact Us</span>
+                                <span class="d-inline d-md-none">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <header class="maintenance-hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8 text-white">
+                    <h1 class="display-4 fw-bold mb-4">Professional AC Maintenance Services</h1>
+                    <p class="lead mb-4">Keep your cooling system running at peak performance with our expert
+                        maintenance plans</p>
+                    <a href="#plans" class="btn btn-light btn-lg px-4 py-2 me-2">View Plans</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg px-4 py-2">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Maintenance Plans -->
+    <section id="plans" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">Our Maintenance Plans</h2>
+                <p class="lead">Choose the perfect plan for your cooling needs</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card maintenance-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-blue mb-4">
+                                <i class="fas fa-fan text-white"></i>
+                            </div>
+                            <h3 class="card-title fw-bold">Basic Tune-Up</h3>
+                            <h4 class="text-primary fw-bold mb-4">2189/</h4>
+                            <ul class="text-start ps-0 mb-4">
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Filter
+                                    inspection/replacement</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Thermostat
+                                    calibration</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> System performance
+                                    check</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Basic cleaning</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Deep cleaning</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-blue w-100 py-2">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card maintenance-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-blue mb-4">
+                                <i class="fas fa-star text-white"></i>
+                            </div>
+                            <h3 class="card-title fw-bold">Premium Service</h3>
+                            <h4 class="text-primary fw-bold mb-4">4149/</h4>
+                            <ul class="text-start ps-0 mb-4">
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> All Basic services
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Coil cleaning</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Condensate drain
+                                    inspection</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Electrical component
+                                    check</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Refrigerant level
+                                    inspection</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-blue w-100 py-2">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card maintenance-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-blue mb-4">
+                                <i class="fas fa-calendar-alt text-white"></i>
+                            </div>
+                            <h3 class="card-title fw-bold">Annual Plan</h3>
+                            <h4 class="text-primary fw-bold mb-4">7249/year</h4>
+                            <ul class="text-start ps-0 mb-4">
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Two Premium services
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> 15% discount on
+                                    repairs</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Priority scheduling
+                                </li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Emergency service
+                                    discount</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-blue me-2"></i> Comprehensive system
+                                    report</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-blue w-100 py-2">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/maintenance2" alt="AC Maintenance" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-primary mb-4">Why Regular AC Maintenance Matters</h2>
+                    <div class="benefit-item d-flex mb-3">
+                        <div class="icon-box-sm bg-blue me-3">
+                            <i class="fas fa-bolt text-white"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold">Improved Efficiency</h5>
+                            <p>Reduce energy consumption by up to 15% with properly maintained equipment.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item d-flex mb-3">
+                        <div class="icon-box-sm bg-blue me-3">
+                            <i class="fas fa-clock text-white"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold">Extended Lifespan</h5>
+                            <p>Regular maintenance can add years to your AC unit's operational life.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item d-flex mb-3">
+                        <div class="icon-box-sm bg-blue me-3">
+                            <i class="fas fa-shield-alt text-white"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold">Prevent Breakdowns</h5>
+                            <p>Catch small issues before they become costly repairs.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item d-flex">
+                        <div class="icon-box-sm bg-blue me-3">
+                            <i class="fas fa-lungs text-white"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold">Better Air Quality</h5>
+                            <p>Clean systems provide healthier air for your family or employees.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">What Our Customers Say</h2>
+                <p class="lead">Trusted by homeowners and businesses across our community</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100">
+                        <div class="card-body p-4">
+                            <div class="mb-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="mb-4">"COSY's maintenance plan has kept our office AC running perfectly for years
+                                without a single breakdown. Their technicians are professional and thorough."</p>
+                            <div class="d-flex align-items-center">
+                                <img src="images/human" alt="Ali K."
+                                    class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Ali K.</h6>
+                                    <small class="text-muted">Office Manager</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100">
+                        <div class="card-body p-4">
+                            <div class="mb-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="mb-4">"I've been using COSY's annual maintenance plan for my home AC units. They
+                                always show up on time, do a fantastic job, and my energy bills have decreased."</p>
+                            <div class="d-flex align-items-center">
+                                <img src="images/humann" alt="Sarah M."
+                                    class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Sarah M.</h6>
+                                    <small class="text-muted">Homeowner</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card testimonial-card h-100">
+                        <div class="card-body p-4">
+                            <div class="mb-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="mb-4">"The technician was extremely knowledgeable and took time to explain
+                                everything. My AC is running cooler and quieter after their maintenance service."</p>
+                            <div class="d-flex align-items-center">
+                                <img src="images/humn" alt="Rayan T."
+                                    class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h6 class="mb-0 fw-bold">Rayan T.</h6>
+                                    <small class="text-muted">Restaurant Owner</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-5 bg-blue text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="fw-bold mb-4">Ready for Professional AC Maintenance?</h2>
+                    <p class="lead mb-5">Schedule your maintenance service today and enjoy a cooler, more efficient
+                        space.</p>
+                    <div class="row g-3 justify-content-center">
+                        <div class="col-md-6 col-lg-4">
+                            <a href="tel:+1234567890" class="btn btn-light btn-lg w-100 py-3">
+                                <i class="fas fa-phone me-2"></i> Call Now
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <button class="btn btn-outline-light btn-lg w-100 py-3" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">
+                                <i class="fas fa-envelope me-2"></i> Email Us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="images/footer3.jpg" alt="Cosy Air Conditioners">
+                </div>
+                <p>Providing premium air conditioning solutions for homes and businesses since 2010. We keep you cool
+                    when it's hot outside.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul>
+                    <nav>
+                        <ul>
+                           <a href="index.html">Home</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="about.html">About Cosy</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-installation.html">Services</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="brands.html">Brands</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="contact.html">Contact us</a>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3 class="footer-heading">Services</h3>
+                <ul>
+                    <nav>
+                        <ul>
+                            <a href="ac-installation.html">AC-Installation</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-maintenance.html">AC-Maintenance</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-repair.html">AC-Repair</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="duct-cleaning.html">Duct-Cleaning</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="refrigerant-recharge.html">Refrigerant-recharge</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="thermostat-installation.html">Thermostat-Installation</a>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3 class="footer-heading">Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> DHA Phase 6 Khayaban-e-Muhafiz Karachi,Pakistan</p>
+                <p><i class="fas fa-phone-alt"></i> (92) 4156-78970</p>
+                <p><i class="fas fa-envelope"></i> info@cosyairconditioners.com</p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Cosy Air Conditioners. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a
+                    href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

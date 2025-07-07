@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitsubishi Electric | Cosy Air Conditioners</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="mit.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="icon" href="images/logo1.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+            <div class="container-fluid px-3 px-md-5"> <!-- Changed to container-fluid with responsive padding -->
+                <!-- Animated Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="logo-animation me-2">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <span class="brand-text">Cosy Air Conditioners</span>
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-home d-lg-none me-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fas fa-info-circle d-lg-none me-2"></i>About
+                                Cosy</a>
+                        </li>
+
+                        <!-- Services Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-box-open me-1 d-none d-lg-inline"></i>Services
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="ac-installation.html">Installation</a></li>
+                                <li><a class="dropdown-item" href="ac-maintenance.html">Maintenance</a></li>
+                                <li><a class="dropdown-item" href="ac-repair.html">Repairing</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="duct-cleaning.html">Duct-Cleaning</a></li>
+                                <li><a class="dropdown-item" href="refrigerant-recharge.html">Refrigerant</a></li>
+                                <li><a class="dropdown-item" href="thermostat-installation.html">Thermostat</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Brands Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="brandsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-tags me-1 d-none d-lg-inline"></i>Brands
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="brandsDropdown">
+                                <li><a class="dropdown-item" href="mitsubishi.html">Mitsubishi</a></li>
+                                <li><a class="dropdown-item" href="orient.html">Orient</a></li>
+                                <li><a class="dropdown-item" href="lg.html">LG</a></li>
+                                <li><a class="dropdown-item" href="sanyo.html">Sanyo</a></li>
+                                <li><a class="dropdown-item" href="carrier.html">Carrier</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-contact" href="contact.html">
+                                <i class="fas fa-envelope me-1"></i>
+                                <span class="d-none d-md-inline">Contact Us</span>
+                                <span class="d-inline d-md-none">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <header class="mitsubishi-hero bg-light py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Orient Air Conditioners</h1>
+            <p class="lead">The Orient Ultron Hyper DC Inverter AC is an ecofriendly air conditioner.</p>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main class="py-5">
+        <div class="container">
+            <!-- Split AC Section -->
+            <section class="mb-5">
+                <h2 class="text-center mb-4 section-title"><i class="fas fa-home me-2"></i> SPLIT AIR CONDITIONERS</h2>
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/orient1" class="card-img-top" alt="1 Ton Inverter">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">1 Ton Inverter Series </h4>
+                                <ul class="product-features">
+                                    <li>Energy efficient inverter technology</li>
+                                    <li>Whisper quiet operation</li>
+                                    <li>Smart control options</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/orient2" class="card-img-top" alt="1.5 Ton Inverter">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">1.5 Ton Inverter Series </h4>
+                                <ul class="product-features">
+                                    <li>Powerful cooling performance</li>
+                                    <li>Eco-friendly refrigerant</li>
+                                    <li>Self-cleaning function</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/orent3" class="card-img-top" alt="2 Ton Inverter">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">2 Ton Inverter Series </h4>
+                                <ul class="product-features">
+                                    <li>Large room coverage</li>
+                                    <li>Advanced air filtration</li>
+                                    <li>Wi-Fi connectivity</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cabinet AC Section -->
+            <section class="mb-5">
+                <h2 class="text-center mb-4 section-title"><i class="fas fa-building me-2"></i> CABINET AIR CONDITIONERS
+                </h2>
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/cano1" class="card-img-top" alt="3.2 Ton Cabinet">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">PS 3.2 Ton</h4>
+                                <ul class="product-features">
+                                    <li>Commercial grade durability</li>
+                                    <li>High efficiency compressor</li>
+                                    <li>Easy maintenance</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/cano" class="card-img-top" alt="4 Ton Cabinet">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">4 TON PS SERIES 5JJ</h4>
+                                <ul class="product-features">
+                                    <li>Heavy-duty performance</li>
+                                    <li>Wide airflow range</li>
+                                    <li>Corrosion resistant</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/orient8" class="card-img-top" alt="3.2.5 Ton Cabinet">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">PS-3.2.5 Ton Semi Inverter</h4>
+                                <ul class="product-features">
+                                    <li>Semi-inverter technology</li>
+                                    <li>Energy saving operation</li>
+                                    <li>Robust construction</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Cassette AC Section -->
+            <section>
+                <h2 class="text-center mb-4 section-title"><i class="fas fa-vector-square me-2"></i> CASSETTE AIR
+                    CONDITIONERS</h2>
+                <div class="row g-4">
+                    <!-- Product 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/1" class="card-img-top" alt="FDTC26VF">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">FDTC26VF</h4>
+                                <ul class="product-features">
+                                    <li>4-way airflow</li>
+                                    <li>Compact design</li>
+                                    <li>Quiet operation</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/2" class="card-img-top" alt="FDTW08KXE6F">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">FDTW08KXE6F VRF 2-Way</h4>
+                                <ul class="product-features">
+                                    <li>VRF technology</li>
+                                    <li>2-way cassette</li>
+                                    <li>High energy efficiency</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 product-card">
+                            <img src="images/4" class="card-img-top" alt="FDTC45KXE6F">
+                            <div class="card-body">
+                                <h3 class="card-title">Orient</h3>
+                                <h4 class="card-subtitle mb-2 text-muted">FDTC45KXE6F VRF Compact</h4>
+                                <ul class="product-features">
+                                    <li>Compact VRF solution</li>
+                                    <li>Advanced controls</li>
+                                    <li>Reliable performance</li>
+                                </ul>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark position-relative" type="button"
+                                        id="cartButton">
+                                        <i class="bi bi-cart3"> Buy Now</i>
+                                        <span id="cartCounter"
+                                            class="position-absolute top-0 start-100 translate-middle badge bg-danger rounded-pill d-none">0</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="images/footer3.jpg" alt="Cosy Air Conditioners">
+                </div>
+                <p>Providing premium air conditioning solutions for homes and businesses since 2010. We keep you cool
+                    when it's hot outside.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul>
+                    <nav>
+                        <ul>
+                          <a href="index.html">Home</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="about.html">About Cosy</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-installation.html">Services</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="brands.html">Brands</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="contact.html">Contact us</a>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3 class="footer-heading">Services</h3>
+                <ul>
+                    <nav>
+                        <ul>
+                            <a href="ac-installation.html">AC-Installation</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-maintenance.html">AC-Maintenance</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-repair.html">AC-Repair</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="duct-cleaning.html">Duct-Cleaning</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="refrigerant-recharge.html">Refrigerant-recharge</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="thermostat-installation.html">Thermostat-Installation</a>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3 class="footer-heading">Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> DHA Phase 6 Khayaban-e-Muhafiz Karachi,Pakistan</p>
+                <p><i class="fas fa-phone-alt"></i> (92) 4156-78970</p>
+                <p><i class="fas fa-envelope"></i> info@cosyairconditioners.com</p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Cosy Air Conditioners. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a
+                    href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

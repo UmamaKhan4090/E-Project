@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy Air Conditioners - Stay Cool in Style</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="duct.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="icon" href="images/logo1.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+            <div class="container-fluid px-3 px-md-5"> <!-- Changed to container-fluid with responsive padding -->
+                <!-- Animated Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="logo-animation me-2">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <span class="brand-text">Cosy Air Conditioners</span>
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-home d-lg-none me-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fas fa-info-circle d-lg-none me-2"></i>About
+                                Cosy</a>
+                        </li>
+
+                        <!-- Services Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-box-open me-1 d-none d-lg-inline"></i>Services
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="ac-installation.html">Installation</a></li>
+                                <li><a class="dropdown-item" href="ac-maintenance.html">Maintenance</a></li>
+                                <li><a class="dropdown-item" href="ac-repair.html">Repairing</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="duct-cleaning.html">Duct-Cleaning</a></li>
+                                <li><a class="dropdown-item" href="refrigerant-recharge.html">Refrigerant</a></li>
+                                <li><a class="dropdown-item" href="thermostat-installation.html">Thermostat</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Brands Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="brandsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-tags me-1 d-none d-lg-inline"></i>Brands
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="brandsDropdown">
+                                <li><a class="dropdown-item" href="mitsubishi.html">Mitsubishi</a></li>
+                                <li><a class="dropdown-item" href="orient.html">Orient</a></li>
+                                <li><a class="dropdown-item" href="lg.html">LG</a></li>
+                                <li><a class="dropdown-item" href="sanyo.html">Sanyo</a></li>
+                                <li><a class="dropdown-item" href="carrier.html">Carrier</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-contact" href="contact.html">
+                                <i class="fas fa-envelope me-1"></i>
+                                <span class="d-none d-md-inline">Contact Us</span>
+                                <span class="d-inline d-md-none">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="duct-hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8 text-white">
+                    <h1 class="display-4 fw-bold mb-4">Professional AC Duct Cleaning Services</h1>
+                    <p class="lead mb-4">Breathe easier with our thorough duct cleaning that removes dust, allergens,
+                        and improves air quality</p>
+                    <a href="#booking" class="btn btn-primary btn-lg px-4 py-2 me-2">Book Now</a>
+                    <a href="#benefits" class="btn btn-outline-light btn-lg px-4 py-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Clean Ducts -->
+    <section id="benefits" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/duct3" alt="Duct Cleaning Process" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-primary mb-4">Why Duct Cleaning Matters</h2>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h5>Improved Air Quality</h5>
+                            <p>Remove dust, pollen, and other allergens circulating through your home</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h5>Reduced Dust Accumulation</h5>
+                            <p>Less dust settling on furniture and surfaces after cleaning</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h5>Enhanced Airflow</h5>
+                            <p>Clean ducts allow your system to operate more efficiently</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h5>Energy Savings</h5>
+                            <p>Improve HVAC efficiency and reduce energy costs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">Our Duct Cleaning Process</h2>
+                <p class="lead">Thorough cleaning using professional equipment and techniques</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="process-number">1</div>
+                        <h4>Inspection</h4>
+                        <p>We thoroughly inspect your duct system using cameras to identify problem areas</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="process-number">2</div>
+                        <h4>Preparation</h4>
+                        <p>Protecting your home with drop cloths and sealing vents for contained cleaning</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="process-number">3</div>
+                        <h4>Cleaning</h4>
+                        <p>Using powerful truck-mounted vacuums and specialized tools to remove debris</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="process-number">4</div>
+                        <h4>Sanitizing</h4>
+                        <p>Applying EPA-approved sanitizers to eliminate mold and bacteria</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="process-number">5</div>
+                        <h4>Filter Replacement</h4>
+                        <p>Installing new high-quality air filters (optional)</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="process-number">6</div>
+                        <h4>Final Inspection</h4>
+                        <p>Verifying all ducts are clean and system is functioning properly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-primary">Duct Cleaning Packages</h2>
+                <p class="lead">Choose the right package for your home or business</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Basic Cleaning</h3>
+                            <div class="price">2199/.</div>
+                            <p>Up to 10 vents</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Main duct cleaning</li>
+                            <li><i class="fas fa-check"></i> Supply/return vents</li>
+                            <li><i class="fas fa-check"></i> Blower compartment</li>
+                            <li><i class="fas fa-check"></i> Visual inspection</li>
+                            <li><i class="fas fa-times"></i> Sanitizing treatment</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline-primary w-100">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <div class="pricing-header">
+                            <h3>Standard Cleaning</h3>
+                            <div class="price">3299/.</div>
+                            <p>Up to 15 vents</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> All Basic features</li>
+                            <li><i class="fas fa-check"></i> Sanitizing treatment</li>
+                            <li><i class="fas fa-check"></i> Air filter replacement</li>
+                            <li><i class="fas fa-check"></i> Register cleaning</li>
+                            <li><i class="fas fa-check"></i> Priority scheduling</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-primary w-100">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Premium Cleaning</h3>
+                            <div class="price">4399/.</div>
+                            <p>Up to 25 vents</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> All Standard features</li>
+                            <li><i class="fas fa-check"></i> UV light installation</li>
+                            <li><i class="fas fa-check"></i> Full system inspection</li>
+                            <li><i class="fas fa-check"></i> 1-year guarantee</li>
+                            <li><i class="fas fa-check"></i> Emergency service</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline-primary w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="fw-bold mb-4">Schedule Your Duct Cleaning Today</h2>
+                    <p class="lead mb-5">Fill out the form below and we'll contact you to confirm your appointment</p>
+
+                    <form class="booking-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Phone Number" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-select">
+                                    <option selected>Select Package</option>
+                                    <option>Basic Cleaning (2199)</option>
+                                    <option>Standard Cleaning (3299)</option>
+                                    <option>Premium Cleaning (4399)</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="3" placeholder="Additional Information"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-light btn-lg px-4 py-2">Request Service</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="images/footer3.jpg" alt="Cosy Air Conditioners">
+                </div>
+                <p>Providing premium air conditioning solutions for homes and businesses since 2010. We keep you cool
+                    when it's hot outside.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul>
+                    <nav>
+                        <ul>
+                           <a href="index.html">Home</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="about.html">About Cosy</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-installation.html">Services</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="brands.html">Brands</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="contact.html">Contact us</a>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3 class="footer-heading">Services</h3>
+                <ul>
+                    <nav>
+                        <ul>
+                            <a href="ac-installation.html">AC-Installation</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-maintenance.html">AC-Maintenance</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="ac-repair.html">AC-Repair</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="duct-cleaning.html">Duct-Cleaning</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="refrigerant-recharge.html">Refrigerant-recharge</a>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul>
+                            <a href="thermostat-installation.html">Thermostat-Installation</a>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3 class="footer-heading">Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> DHA Phase 6 Khayaban-e-Muhafiz Karachi,Pakistan</p>
+                <p><i class="fas fa-phone-alt"></i> (92) 4156-78970</p>
+                <p><i class="fas fa-envelope"></i> info@cosyairconditioners.com</p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Cosy Air Conditioners. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a
+                    href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
